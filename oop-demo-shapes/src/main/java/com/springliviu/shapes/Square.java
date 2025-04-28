@@ -1,4 +1,13 @@
 package com.springliviu.shapes;
 
-public class Square {
+/** Квадрат */
+public class Square implements Shape {
+    private final double side;
+    public Square(double side) { this.side = side; }
+
+    @Override
+    public String name() { return "Square"; }
+
+    @Override
+    public double area() { return side * side; }
 }
