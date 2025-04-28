@@ -70,4 +70,12 @@ public class ArrayUtils {
         return -1;
     }
     // (делим область поиска пополам в отсортированном массиве) :contentReference[oaicite:8]{index=8}
+    public static void main(String[] args) {
+         int[] arr = {1,2,2,7,5,6,3,8,9};
+         System.out.println(Arrays.toString(arr));
+         System.out.println(Arrays.toString(removeDuplicates(arr)));
+         System.out.println(Arrays.toString(findMinMax(arr)));
+
+
+    }
 }
