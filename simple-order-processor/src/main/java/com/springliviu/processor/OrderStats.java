@@ -9,9 +9,14 @@ public class OrderStats {
 
     public OrderStats(Map<String, Integer> countPerUser, Map<String, Double> sumPerUser) {
         this.countPerUser = countPerUser;
-        this.sumPerUser   = sumPerUser;
+        this.sumPerUser = sumPerUser;
     }
 
-    public Map<String, Integer> getCountPerUser() { return countPerUser; }
-    public Map<String, Double>  getSumPerUser()   { return sumPerUser;   }
+    public Map<String, Integer> getCountPerUser() {
+        return countPerUser;
+    }
+
+    public Map<String, Double> getSumPerUser() {
+        return sumPerUser;
+    }
 }
