@@ -9,6 +9,7 @@
         <module>oop-demo-shapes</module>
         <module>java-array-utils</module>
         <module>simple-order-processor</module>
+        <module>aggregator</module>
     </modules>
 
     <groupId>com.springliviu</groupId>
